@@ -1,0 +1,139 @@
+body{
+    background-color: #3A57A3;
+    font-family: Inter;
+    margin: 0;
+}
+
+.app-header,
+.app-nav,
+.nav-list{
+    display: flex;
+    align-items: flex-start;
+    color: #fff;
+}
+
+.app-header{
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 56px;
+    top:0;
+    z-index: 1;
+    position: sticky;
+    text-align: left;
+    font-size: 40;
+    margin-bottom: 169px;
+}
+
+.app-nav{
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.nav-list{
+    gap: 26px;
+    justify-content: center;
+    text-align: center;
+    margin:30px 0;
+}
+
+.profile-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.hero{
+    padding-bottom: 246px;
+}
+
+.title-header{
+    font-weight: 600;
+    font-size: 64px;
+    color: #fff;
+    margin-bottom: 36px;
+}
+
+.profile-title{
+    text-align: center;
+}
+
+.profile-button{
+    background-color: #01BF71;
+    display: inline;
+    padding: 8px 20px;
+    border-radius: 24px;
+    margin-top: 36px;
+    cursor: pointer;
+}
+
+.video-background{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.biodata{
+    display: flex;
+    background-color: #0a0a0a;
+    justify-content: center;
+    gap: 83px;
+}
+
+.biodata-profiling{
+    color: #ffff;
+}
+
+.profile-image1{
+    width: 320px;
+    height: 320px;
+    border-radius: 36px;
+    margin: 158px 0;
+}
+
+.biodata-title{
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.biodata-profiling{
+    padding:183px 0;
+}
+
+
+.works{
+    display: flex;
+    background-color: #ffff;
+    justify-content: center;
+}
+
+.portfolio-image{
+    margin-bottom: 30px;
+}
+
+.work-title{
+    font-size: 64px;
+    font-weight:400; 
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.works-container{
+    padding:80px 0;
+}
+
+.portfolio-list{
+    display: flex;
+    gap: 36px;
+}
+
+.portfolio-title{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
